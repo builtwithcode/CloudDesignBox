@@ -8,7 +8,7 @@
 }
 
 .container {
-  margin: 3rem auto;
+  margin: auto;
   max-width: 960px;
   height: 480px;
   align-content: center;
@@ -19,6 +19,14 @@
   margin: 3rem auto;
   max-width: 960px;
   height: 240px;
+  align-content: center;
+  max-height: auto;
+}
+
+.big-container {
+  margin: 3rem auto;
+  max-width: 540px;
+  height: 720px;
   align-content: center;
   max-height: auto;
 }
@@ -42,6 +50,13 @@
   padding: 10px;
 }
 
+.contact-button1 {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+}
+
 .center {
   margin: auto;
   display: block;
@@ -51,6 +66,263 @@
 
 .grid-container {
   display: grid;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-gap: 30px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.grid-item {
+  width: 150px;
+  height: 150px;
+}
+
+.grid-item1 {
+  width: 150px;
+  height: 150px;
+  border: #000 solid 1px;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  font-size: 12px;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  font-size: 16px;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  font-size: 16px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  font-size: 16px;
+}
+
+.smaller-font {
+  font-size: 16px;
+  padding-bottom: 0;
+  color: #4a81ff;
+}
+
+.smaller-font1 {
+  font-size: 16px;
+  padding-bottom: 0;
+}
+
+.blue {
+  background-color: #4a81ff;
+  margin-bottom: 40px;
+}
+
+.red {
+  background-color: rgb(255, 50, 50);
+  margin-bottom: 40px;
+}
+
+.gray {
+  padding-top: 1px;
+  margin: 0;
+  max-width: 100%;
+  background-color: #e1e1e1;
+}
+
+.gap {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.footer-gray {
+  padding-top: 1px;
+  margin: 0;
+  max-width: 100%;
+  background-color: #e1e1e1;
+  font-size: 8px;
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  max-width: 150px;
+  height: auto;
+  padding: 5px;
+  padding-bottom: 0;
+  margin-left: 60px;
+  margin-right: 60px;
+  border: #000 solid 2px;
+  font-size: 8px;
+  background-color: #fff;
+}
+
+.package-display {
+  display: inline-flex;
+}
+
+.package-button {
+  color: #ffffff;
+  background-color: rgb(255, 102, 102);
+  max-width: 100%;
+}
+
+.user {
+  display: inline-block;
+  align-items: center;
+  margin: auto auto 10px auto;
+  background-color: #fff;
+  border: #000 solid 1px;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.user:last-child {
+  margin-bottom: 0;
+}
+
+.img {
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+  float: left;
+  margin: 0;
+}
+
+.img1 {
+  flex: 0 0 96px;
+  width: 48px;
+  height: 48px;
+  float: right;
+  margin-right: 80px;
+}
+
+.description {
+  flex: 1;
+  margin-left: 18px;
+  padding: 12px;
+}
+
+.username {
+  margin: 0 0 12px 100px;
+  padding: 0;
+}
+
+.excerpt {
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+.head {
+  display: inline flex;
+  padding-bottom: 75px;
+}
+
+.head1 {
+  border-bottom: gray solid 2px;
+}
+
+.header {
+  float: left;
+}
+
+.links {
+  text-decoration: none;
+  color: #000;
+}
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.display {
+  display: inline-flex;
+}
+
+.display1 {
+  display: inline-flex;
+  margin-top: 15px;
+}
+
+.view {
+  margin-left: 370px;
+  font-size: 12px;
+}
+
+.view1 {
+  margin-left: 340px;
+  font-size: 12px;
+}
+
+.view2 {
+  margin-left: 300px;
+  font-size: 12px;
+}
+
+.padding {
+  padding-bottom: 30px;
+}
+
+.load-more {
+  padding: 15px;
+  background-color: #fff;
+  border: #4a81ff solid 1px;
+  color: #4a81ff;
+  margin-top: 20px;
+  position: relative;
+  left: 37%;
+}
+
+.phone1 {
+  margin-bottom: 30px;
+}
+
+.name1 {
+  margin-bottom: 30px;
+}
+
+.company1 {
+  margin-bottom: 30px;
+}
+
+.email1 {
+  margin-bottom: 30px;
+}
+
+.service1 {
+  margin-bottom: 30px;
+}
+
+.message1 {
+  width: 600px;
+}
+
+.special {
+  background-color: #4a81ff;
+  color: #fff;
+  float: right;
+  padding: 10px 20px 10px 20px;
+}
+
+.gdpr {
+  margin-right: 10px;
 }

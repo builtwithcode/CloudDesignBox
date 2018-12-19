@@ -2,7 +2,9 @@ import React from 'react'
 import Container from '../components/Container'
 import SemiContainer from '../components/SemiContainer'
 import Layout from '../components/layout'
-// import Image from '../components/image'
+import Details from '../components/Details'
+import Footer from '../components/Footer'
+// import { Link } from 'gatsby'
 import SEO from '../components/seo'
 import '../components/Styles/style.css'
 
@@ -10,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
     <Container>
+      <div className="gap" />
       <p>We are SharePoint and</p>
       <p>Office 365 Specalists for</p>
       <p>Education and Business.</p>
@@ -42,17 +45,19 @@ const IndexPage = () => (
         <button className="contact-button">Contact Us</button>
       </div>
     </SemiContainer>
-    <Container>
-      <div className="grid-container">
+    <div className="gray">
+      <Container>
         <h2>Community Resources</h2>
-        <div>Resource 1</div>
-        <div>Resource 1</div>
-        <div>Resource 1</div>
-        <div>Resource 1</div>
-        <div>Resource 1</div>
-        <div>Resource 1</div>
-      </div>
-    </Container>
+        <div className="grid-container">
+          <div className="grid-item">Resource 1</div>
+          <div className="grid-item">Resource 1</div>
+          <div className="grid-item">Resource 1</div>
+          <div className="grid-item">Resource 1</div>
+        </div>
+      </Container>
+    </div>
+    <Details />
+    <Footer />
   </Layout>
 )
 
