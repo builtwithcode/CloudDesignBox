@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import gatsbyIcon from '../images/gatsby-icon.png'
-import BigContainer from '../components/BigContainer'
+import BigContainer1 from '../components/BigContainer1'
 import SemiContainer from '../components/SemiContainer'
 // import Container from '../components/Container'
 import Details from '../components/Details'
@@ -18,7 +18,7 @@ const caseStudiesPage = () => (
       <h2>say about us</h2>
     </SemiContainer>
     <div className="gray">
-      <BigContainer>
+      <BigContainer1>
         <div class="user">
           <Link to="/caseStudyInner" className="links">
             <h2 class="username">CAM Academy Trust</h2>
@@ -60,7 +60,7 @@ const caseStudiesPage = () => (
             </p>
           </Link>
         </div>
-      </BigContainer>
+      </BigContainer1>
     </div>
     <div className="center">
       <SemiContainer>

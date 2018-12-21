@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import BigContainer from '../components/BigContainer'
+import BigContainer1 from '../components/BigContainer1'
 import SemiContainer from '../components/SemiContainer'
 // import Container from '../components/Container'
 import Details from '../components/Details'
@@ -28,7 +28,7 @@ const communityPage = () => (
         </div>
       </div>
     </div>
-    <BigContainer>
+    <BigContainer1>
       <div className="padding">
         <div className="display">
           <h2>Blogs</h2>
@@ -68,12 +68,15 @@ const communityPage = () => (
           <p className="grid-item1">Podcast 3</p>
         </div>
       </div>
-    </BigContainer>
+    </BigContainer1>
     <SemiContainer>
       <div className="center">
-        <h2>BGet in touch and see if our</h2>
-        <h2>friendly team can help you</h2>
-        <button className="contact-button">Contact Us</button>
+        <div className="gap" />
+        <p>We are SharePoint and</p>
+        <p>Office 365 Specalists for</p>
+        <p>Education and Business.</p>
+        <button className="education">Education</button>
+        <button className="business">Business</button>
       </div>
     </SemiContainer>
     <Details />

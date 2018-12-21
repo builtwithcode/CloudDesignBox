@@ -23,7 +23,7 @@ const educationPage = () => (
       <BigContainer>
         {/* Buttons need fixing but not quite sure how as of this
         moment */}
-        <div className="center">
+        <div className="center1">
           <h2>Intranet</h2>
           <p>lots of small text.</p>
         </div>
@@ -117,11 +117,11 @@ const educationPage = () => (
       <h2>Easily manage staff on</h2>
       <h2>the same, integrated</h2>
       <h2>platform</h2>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
     </Container>
     <SemiContainer>

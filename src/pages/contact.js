@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'gatsby'
 // import Container from '../components/Container'
-import BigContainer from '../components/BigContainer'
+import BigContainer1 from '../components/BigContainer1'
 import SemiContainer from '../components/SemiContainer'
 import Details from '../components/Details'
 import Footer from '../components/Footer'
@@ -18,7 +18,7 @@ const contactPage = () => (
     </SemiContainer>
     <div className="gray">
       <SemiContainer>
-        <div className="center">
+        <div>
           <h2>Our Details</h2>
           <div className="grid-container4">
             <p className="blue-text">Times</p>
@@ -31,7 +31,7 @@ const contactPage = () => (
         </div>
       </SemiContainer>
     </div>
-    <BigContainer>
+    <BigContainer1>
       <div id="center">
         <div>
           <div>
@@ -115,7 +115,7 @@ const contactPage = () => (
           </div>
         </div>
       </div>
-    </BigContainer>
+    </BigContainer1>
     <Details />
     <Footer />
   </Layout>
