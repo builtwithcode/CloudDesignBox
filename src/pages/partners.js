@@ -1,9 +1,9 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import gatsbyIcon from '../images/gatsby-icon.png'
 import SemiContainer from '../components/SemiContainer'
 import Details from '../components/Details'
-import Footer from '../components/Footer'
+import Footer1 from '../components/Footer1'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import '../components/Styles/style.css'
@@ -43,12 +43,16 @@ const partnersPage = () => (
     <SemiContainer>
       <div className="center">
         <h2>Become outstanding</h2>
-        <h2>Talk to us today.</h2>
-        <button className="contact-button">Contact Us</button>
+        <h2 className="margin-bottom">Talk to us today.</h2>
+        <Link to="/contact" className="contact-button">
+          Contact Us
+        </Link>
       </div>
     </SemiContainer>
-    <Details />
-    <Footer />
+    <div className="gray1">
+      <Details />
+    </div>
+    <Footer1 />
   </Layout>
 )
 

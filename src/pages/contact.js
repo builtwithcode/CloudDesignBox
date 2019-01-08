@@ -4,7 +4,7 @@ import React from 'react'
 import BigContainer1 from '../components/BigContainer1'
 import SemiContainer from '../components/SemiContainer'
 import Details from '../components/Details'
-import Footer from '../components/Footer'
+import Footer1 from '../components/Footer1'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import '../components/Styles/style.css'
@@ -116,8 +116,10 @@ const contactPage = () => (
         </div>
       </div>
     </BigContainer1>
-    <Details />
-    <Footer />
+    <div className="gray1">
+      <Details />
+    </div>
+    <Footer1 />
   </Layout>
 )
 

@@ -5,7 +5,7 @@ import BigContainer1 from '../components/BigContainer1'
 import SemiContainer from '../components/SemiContainer'
 // import Container from '../components/Container'
 import Details from '../components/Details'
-import Footer from '../components/Footer'
+import Footer1 from '../components/Footer1'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import '../components/Styles/style.css'
@@ -66,13 +66,19 @@ const caseStudiesPage = () => (
       <SemiContainer>
         <div className="gap" />
         <p>Learn more about how we can</p>
-        <p>help your school or business</p>
-        <button className="education">Education</button>
-        <button className="business">Business</button>
+        <p className="margin-bottom">help your school or business</p>
+        <Link to="education" className="education">
+          Education
+        </Link>
+        <Link to="business" className="business">
+          Business
+        </Link>
       </SemiContainer>
     </div>
-    <Details />
-    <Footer />
+    <div className="gray1">
+      <Details />
+    </div>
+    <Footer1 />
   </Layout>
 )
 

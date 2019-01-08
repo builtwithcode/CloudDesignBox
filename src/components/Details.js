@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import SemiContainer from './SemiContainer'
+// import Link from 'gatsby'
 import './Styles/style.css'
 
 class Details extends Component {

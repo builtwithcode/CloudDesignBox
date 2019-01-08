@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import gatsbyIcon from '../images/gatsby-icon.png'
 import BigContainer from '../components/BigContainer'
 import SemiContainer from '../components/SemiContainer'
@@ -90,8 +90,10 @@ const innerCaseStudyPage = () => (
     <SemiContainer>
       <div className="center">
         <h2>Want to work with us?</h2>
-        <h2>Talk to us and see how we can help</h2>
-        <button className="contact-button">Contact Us</button>
+        <h2 className="margin-bottom">Talk to us and see how we can help</h2>
+        <Link to="/contact" className="contact-button">
+          Contact Us
+        </Link>
       </div>
     </SemiContainer>
     <Details />

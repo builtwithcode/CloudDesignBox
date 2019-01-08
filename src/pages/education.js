@@ -1,10 +1,10 @@
 import React from 'react'
-// import { Link } from 'gatsby'
+import { Link } from 'gatsby'
 import Container from '../components/Container'
 import BigContainer from '../components/BigContainer'
 import SemiContainer from '../components/SemiContainer'
 import Details from '../components/Details'
-import Footer from '../components/Footer'
+import Footer1 from '../components/Footer1'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import '../components/Styles/style.css'
@@ -14,10 +14,14 @@ const educationPage = () => (
     <SEO title="Education" />
     <div className="gap" />
     <Container>
-      <h2>Online learning your way</h2>
+      <p>
+        <strong className="blue-strong">Online learning your way</strong>
+      </p>
       <p>take the weight out of</p>
-      <p>school work.</p>
-      <button className="contact-button">Contact Us</button>
+      <p className="margin-bottom">school work.</p>
+      <Link to="/contact" className="contact-button">
+        Contact Us
+      </Link>
     </Container>
     <div className="blue">
       <BigContainer>
@@ -30,62 +34,62 @@ const educationPage = () => (
         <div className="package-display">
           <article>
             <h3 className="smaller-font1">Cloud Box 1</h3>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
             <button className="package-button">Choose Package</button>
           </article>
           <article>
             <h3 className="smaller-font1">Cloud Box 1</h3>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
             <button className="package-button">Choose Package</button>
           </article>
           <article>
             <h3 className="smaller-font1">Cloud Box 1</h3>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>Some content</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p>some content in blue</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
-            <p> some more content in a faded gray</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">Some content</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left">some content in blue</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
+            <p className="padding-left"> some more content in a faded gray</p>
             <button className="package-button">Choose Package</button>
           </article>
         </div>
@@ -99,18 +103,24 @@ const educationPage = () => (
     <Container>
       <h2>Enhance learning and bring</h2>
       <h2>classroom projects to life</h2>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
-      <p>some button pointed info</p>
+      <p>some bullet pointed info</p>
       <p>text</p>
     </Container>
     <SemiContainer>
       <div className="center">
-        <h2>Create the prefect learning</h2>
-        <h2>enviroment at your school</h2>
-        <button className="contact-button">Contact Us</button>
+        <h2>
+          Create the <strong className="blue-strong">prefect learning</strong>
+        </h2>
+        <h2>
+          <strong className="blue-strong">enviroment</strong> at your school
+        </h2>
+        <Link to="/contact" className="contact-button">
+          Contact Us
+        </Link>
       </div>
     </SemiContainer>
     <Container>
@@ -126,13 +136,19 @@ const educationPage = () => (
     </Container>
     <SemiContainer>
       <div className="center">
-        <h2>Become outstanding</h2>
+        <h2>
+          <strong className="blue-strong">Become outstanding</strong>
+        </h2>
         <h2>Talk to us today.</h2>
-        <button className="contact-button">Contact Us</button>
+        <Link to="/contact" className="contact-button">
+          Contact Us
+        </Link>
       </div>
     </SemiContainer>
-    <Details />
-    <Footer />
+    <div className="gray1">
+      <Details />
+    </div>
+    <Footer1 />
   </Layout>
 )
 

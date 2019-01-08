@@ -4,7 +4,7 @@ import './Styles/style.css'
 class Footer extends Component {
   render() {
     return (
-      <div className="footer-gray">
+      <div className="footer">
         <p className="float-left">
           © Cloud Design Box Ltd. All Rights Reserved
         </p>
